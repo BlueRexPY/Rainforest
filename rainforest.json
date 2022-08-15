@@ -1,0 +1,86 @@
+{
+  "name": "Rainforest",
+  "isDark": true,
+  "file": "defaultDark",
+  "common": {
+    "foreground-1": "#69c4ad",
+    "foreground-2": "#80cbc4",
+    "foreground-3": "#3a7564",
+    "background-4": "#212121",
+    "background-3": "#212121",
+    "background-2": "#1a1a1a",
+    "background-1": "#1a1a1a",
+    "border-color-2": "#3a7564",
+    "border-color-1": "#3a7564",
+    "border": "1px solid var(--border-color-1)",
+    "button-text-color": "#fff",
+    "text-color-1": "#80cbc4",
+    "text-color-2": "#3a7564",
+    "text-color-3": "#89d185",
+    "error-color": "#ff5370",
+    "fonts-common": "-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif"
+  },
+  "editor": {
+    "base": "vs-dark",
+    "inherit": true,
+    "rules": [
+      {
+        "background": "1a1a1a",
+        "token": ""
+      },
+      {
+        "foreground": "69c4ad",
+        "token": "punctuation - (punctuation.definition.string || punctuation.definition.comment)"
+      },
+      {
+        "foreground": "69c4ad",
+        "token": "constant"
+      },
+      {
+        "foreground": "89d185",
+        "token": "entity"
+      },
+      {
+        "foreground": "69c4ad",
+        "token": "keyword"
+      },
+      {
+        "foreground": "69c4ad",
+        "token": "storage"
+      },
+      {
+        "foreground": "69c4ad",
+        "token": "string -string.unquoted.old-plist -string.unquoted.heredoc"
+      },
+      {
+        "foreground": "69c4ad",
+        "token": "string.unquoted.heredoc string"
+      },
+      {
+        "foreground": "69c4ad",
+        "fontStyle": "italic",
+        "token": "comment"
+      },
+      {
+        "foreground": "69c4ad",
+        "token": "support"
+      },
+      {
+        "foreground": "69c4ad",
+        "token": "variable"
+      },
+      {
+        "foreground": "69c4ad",
+        "token": "variable.language"
+      }
+    ],
+    "colors": {
+      "editor.foreground": "#69c4ad",
+      "editor.background": "#1a1a1a",
+      "editor.selectionBackground": "#2a4e45",
+      "editor.lineHighlightBackground": "#00000050",
+      "editorCursor.foreground": "#6A9955",
+      "editorWhitespace.foreground": "#eeffff40"
+    }
+  }
+}
