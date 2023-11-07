@@ -7,5 +7,5 @@
 
 ## How to install?
 1. download the "rainforest.json" file and move it to ```C:\Users\<USER_NAME>\.electron-fiddle\themes```
-2. Choose from the list of thems - "Rainforest"
+2. Choose from the list of themes - "Rainforest"
 3. Enjoy 🥳
